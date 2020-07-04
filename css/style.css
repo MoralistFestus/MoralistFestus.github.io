@@ -1,1 +1,100 @@
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: rgb(14, 30, 37);
+  color: white;
+  width: 100%;
+}
+
+h2 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.meet-me {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+  padding:15px;
+  
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 78%;
+  max-width: 364px;
+  padding: 24px;
+  background: white;
+  color: rgb(14, 30, 37);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(14, 30, 37, .16);
+}
+ .card-content{
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ width: 50%;
+ max-width: 364px;
+ padding: 12px;
+ background: #000;
+ color: rgb(14, 30, 37);
+ border-radius: 10px;
+ box-shadow: 0 2px 4px 0 rgba(14, 30, 37, .16);
+ }
+ 
+a {
+  margin: 0;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 24px;
+  color: #00ad9f;
+}
+
+a svg {
+  position: relative;
+  top: 2px;
+}
+img {
+border-radius: 50%;
+width: 60%;
+height: 90%;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: #007A70;
+}
+
+a:hover svg path{
+  fill: #007A70;
+}
+.list {
+   font-size: 14px;
+ }
+p:last-of-type {
+  margin: 0;
+}
+   .str {
+   font-size: 8px;
+   margin-left: 2px;
+   }.icon {
+     font-size: 20px;
+     background-color: dodgerblue;
+     border-radius: 25px;
+     padding: 5px;
+     color: #fff;
+   }.icon-margin{
+      margin-left: 10px;
+   }
